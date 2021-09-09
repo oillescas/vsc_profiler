@@ -1,7 +1,7 @@
 {
   "name": "vsc_profiler",
   "description": "Create and manage vs code profiles",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha",
   "author": "Oscar Illescas",
   "bin": {
     "vscp": "./bin/run"

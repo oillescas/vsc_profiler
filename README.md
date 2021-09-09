@@ -19,7 +19,7 @@ $ npm install -g vsc_profiler
 $ vscp COMMAND
 running command...
 $ vscp (-v|--version|version)
-vsc_profiler/0.0.0 darwin-x64 node-v12.21.0
+vsc_profiler/0.0.1-alpha darwin-x64 node-v12.21.0
 $ vscp --help [COMMAND]
 USAGE
   $ vscp COMMAND
@@ -48,7 +48,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/delete.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.0/src/commands/delete.ts)_
+_See code: [src/commands/delete.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.1-alpha/src/commands/delete.ts)_
 
 ## `vscp extensions PROFILE`
 
@@ -67,7 +67,7 @@ EXAMPLES
   $ vscp extensions jscode
 ```
 
-_See code: [src/commands/extensions.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.0/src/commands/extensions.ts)_
+_See code: [src/commands/extensions.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.1-alpha/src/commands/extensions.ts)_
 
 ## `vscp help [COMMAND]`
 
@@ -102,7 +102,7 @@ EXAMPLE
   $ vscp list
 ```
 
-_See code: [src/commands/list.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.0/src/commands/list.ts)_
+_See code: [src/commands/list.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.1-alpha/src/commands/list.ts)_
 
 ## `vscp new PROFILE`
 
@@ -121,5 +121,5 @@ EXAMPLES
   $ vscp new jscode
 ```
 
-_See code: [src/commands/new.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.0/src/commands/new.ts)_
+_See code: [src/commands/new.ts](https://github.com/oillescas/vsc_profiler/blob/v0.0.1-alpha/src/commands/new.ts)_
 <!-- commandsstop -->
