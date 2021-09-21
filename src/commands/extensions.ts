@@ -23,7 +23,8 @@ export default class Extensions extends Command {
 
     const profile = args.profile;
     const extensions = [
-      'vscode-icons-team.vscode-icons'
+      'vscode-icons-team.vscode-icons',
+      'editorconfig.editorconfig'
     ];
     await Promise.all(
       extensions.map(extension => {
